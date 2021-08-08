@@ -1,0 +1,30 @@
+[Desktop Entry]
+DefaultProfile=
+
+[KonsoleWindow]
+ShowMenuBarByDefault=false
+
+[MainWindow]
+RestorePositionForNextInstance=false
+StatusBar=Disabled
+ToolBarsMovable=Disabled
+
+#Normal screen setup
+#for 4:3
+Height 800x600=300
+Width 800x600=580
+XPosition 800x600=0
+YPosition 800x600=29
+Height 1600x1200=600
+Width 1600x1200=580
+XPosition 1600x1200=0
+YPosition 1600x1200=52
+#for 16:9
+Height 1920x1080=549
+Width 1920x1080=960
+XPosition 1920x1080=15
+YPosition 1920x1080=52
+Height 3840x2160=600
+Width 3840x2160=800
+XPosition 3840x2160=50
+YPosition 3840x2160=50
