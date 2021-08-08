@@ -41,7 +41,7 @@ Once booted up, you should pop in KDE graphical interface. But it turns out inte
 To do this, open KDE Konsole (or TTY2 by pressing `CTRL+ALT+F2`) and identify your interface name (for wired connection, it should look like ens00 or eth0) name with `ip a` to run:
 ```sh
 ip link set $_YOUR_INTERFACE up
-dhcp $_YOUR_INTERFACE
+dhcpcd  $_YOUR_INTERFACE
 ```
 
 # Special french users
