@@ -9,6 +9,12 @@ RestorePositionForNextInstance=false
 StatusBar=Disabled
 ToolBarsMovable=Disabled
 
+
+#VM entry
+Virtual-1 Height 800x600=300
+Virtual-1 Width 800x600=580
+Virtual-1 XPosition 800x600=0
+Virtual-1 YPosition 800x600=29
 #Normal screen setup
 #for 4:3
 Height 800x600=300
