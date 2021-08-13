@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Klog
+Comment=A multiplatform free hamradio logger
+Exec=/usr/bin/klog
+Icon=klog
+Terminal=false
+StartupNotify=false
+Categories=Application;
