@@ -2,6 +2,10 @@
 
 Yet another live arch linux distro for ham radio purposes... But for x86_64 archs.
 
+This distro includes the main tools for *digital modes, SDR, hamnet and more!*
+
+<img src="https://media.discordapp.net/attachments/729343035032207450/876059569858707486/unknown.png" />
+<br><img src="https://media.discordapp.net/attachments/729343035032207450/876059162331709440/unknown.png">
 
 ## Prerequisites
 
@@ -22,7 +26,7 @@ mkarchiso -v -w /path/to/your/working/folder -o /path/to/iso/destination .
 
 ### Flashing the ISO to a USB drive
 
-For this operation, you can use any program you want. Although, using `dd` or Balena Etcher are the best way to do it as they both have been tested.
+For this operation, you can use any program you want. Although, using `dd` or *Balena Etcher* are the best way to do it as they both have been tested.
 You'll need at least **3GB** of storage.
 
 ## Booting up
