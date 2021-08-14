@@ -4,8 +4,8 @@ Yet another live arch linux distro for ham radio purposes... But for x86_64 arch
 
 This distro includes the main tools for *digital modes, SDR, hamnet and more!*
 
-<img src="https://media.discordapp.net/attachments/729343035032207450/876059569858707486/unknown.png" />
-<br><img src="https://media.discordapp.net/attachments/729343035032207450/876059162331709440/unknown.png">
+<img size="25%" src="https://media.discordapp.net/attachments/729343035032207450/876059569858707486/unknown.png" />
+<br><img size="25%" src="https://media.discordapp.net/attachments/729343035032207450/876059162331709440/unknown.png">
 
 ## Prerequisites
 
