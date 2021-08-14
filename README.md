@@ -4,8 +4,8 @@ Yet another live arch linux distro for ham radio purposes... But for x86_64 arch
 
 This distro includes the main tools for *digital modes, SDR, hamnet and more!*
 
-<img size="25%" src="https://media.discordapp.net/attachments/729343035032207450/876059569858707486/unknown.png" />
-<br><img size="25%" src="https://media.discordapp.net/attachments/729343035032207450/876059162331709440/unknown.png">
+<img width="40%" src="https://media.discordapp.net/attachments/729343035032207450/876059569858707486/unknown.png" />
+<img width="40%" src="https://media.discordapp.net/attachments/729343035032207450/876059162331709440/unknown.png">
 
 ## Prerequisites
 
@@ -27,7 +27,7 @@ mkarchiso -v -w /path/to/your/working/folder -o /path/to/iso/destination .
 ### Flashing the ISO to a USB drive
 
 For this operation, you can use any program you want. Although, using `dd` or *Balena Etcher* are the best way to do it as they both have been tested.
-You'll need at least **3GB** of storage.
+You'll need at least **2GB** of storage.
 
 ## Booting up
 
@@ -39,18 +39,9 @@ Go to your machine boot menu and select the right drive to boot with.
 
 For testing in a virtual machine (VMWare/Virtualbox), create a new VM with at least generic `Linux 5.10` on it and select the ISO as external boot drive.
 
-## Getting Internet
+# French keyboard layout
 
-Once booted up, you should pop in KDE graphical interface. But it turns out internet is not automatically set yet.
-To do this, open KDE Konsole (or TTY2 by pressing `CTRL+ALT+F2`) and identify your interface name (for wired connection, it should look like ens00 or eth0) name with `ip a` to run:
-```sh
-ip link set $_YOUR_INTERFACE up
-dhcpcd  $_YOUR_INTERFACE
-```
-
-# Special french users
-
-Pour nos amis francais, si le layout du clavier ne correspond pas:
+Pour nos amis francais, si le layout du clavier ne correspond pas taper dans le terminal:
 
 ```sh
 setxkbmap fr
