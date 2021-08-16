@@ -122,12 +122,12 @@ navigation: widget
 # are set to "true" (they can also be overridden).
 strings:
     productName:         F6KGL OS
-    shortProductName:    Generic
+    shortProductName:    F6KGL
     version:             2022.6.9
     shortVersion:        2021.1
     versionedName:       F6KGL
     #shortVersionedName:  Generic 2017.8
-    bootloaderEntryName: Generic
+    bootloaderEntryName: F6KGL
     productUrl:          https://calamares.io/
     supportUrl:          https://github.com/calamares/calamares/issues
     knownIssuesUrl:      https://calamares.io/about/
