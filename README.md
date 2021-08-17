@@ -17,7 +17,7 @@ It features the basics amateur radio preconfigured software packages:
 * **grig**: User friendy GUI to control hamlib compatible rigs
 * **gqrx**: RX ready Plug'n'Play configuration for every SDR dongle (HackRF, RTL, FunCube, limeSDR...)
 
-You can either [download the ISO](https://perso.esiee.fr/~benkemoj/downloads/f6kgl-2021.08.13-x86_64.iso) or build it yourself with the steps below.
+You can either [download the ISO](https://perso.esiee.fr/~benkemoj/downloads/f6kgl-2021.08.13-x86_64.iso) or *build it yourself* with the steps below.
 ## Prerequisites
 
 To compile the ISO, make sure `archiso` is already installed on your machine and a local repo to import AUR packages.
@@ -25,14 +25,22 @@ To compile the ISO, make sure `archiso` is already installed on your machine and
 pacman -Sy archiso
 git clone https://gitlab.com/F4IEY/f6kgl-os.git
 ```
+### Import AUR packages
+
+Script coming soon
 
 ## Compiling the iso
 
-Once the repo is cloned, use the following commands and make sure to have the right permissions:
+Once the repo is cloned and AUR packages are imported, use the following commands and make sure to have the right permissions:
 
 ```sh
 cd f6kgl-os/archlive
 mkarchiso -v -w /path/to/your/working/folder -o /path/to/iso/destination .
+```
+
+If something is wrong or broken (e.g you interrupted the process or packages are missing), make sure to clean your working folder before building the ISO again:
+```sh
+rm -rfv /path/to/your/working/folder
 ```
 
 ### Flashing the ISO to a USB drive
