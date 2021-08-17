@@ -7,6 +7,16 @@ This distro includes the main tools for *digital modes, SDR, hamnet and more!*
 <img width="40%" src="https://media.discordapp.net/attachments/729343035032207450/876059569858707486/unknown.png" />
 <img width="40%" src="https://media.discordapp.net/attachments/729343035032207450/876059162331709440/unknown.png">
 
+It features the basics amateur radio preconfigured software packages:
+
+* **hamlib**: basic CLI tools to control your rig
+* **direwolf**: For all APRS stuff (client not included, recommend installing xastir)
+* **qsstv**: A simpe SSTV/DRM image encoder/decoder
+* **wsjtx**: Weak signals HF digital modes
+* **klog**: QSO logger
+* **grig**: User friendy GUI to control hamlib compatible rigs
+* **gqrx**: RX ready Plug'n'Play configuration for every SDR dongle (HackRF, RTL, FunCube, limeSDR...)
+
 You can either [download the ISO](https://perso.esiee.fr/~benkemoj/downloads/f6kgl-2021.08.13-x86_64.iso) or build it yourself with the steps below.
 ## Prerequisites
 
