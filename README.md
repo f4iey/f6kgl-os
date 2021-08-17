@@ -28,7 +28,8 @@ cd f6kgl-os/archlive
 ```
 ### Import AUR packages
 
-Script coming soon
+To import the required packages from the AUR run `./import-aur.sh`.
+**Do not skip this step!** Otherwise the ISO build will fail because of missing packages.
 
 ## Compiling the iso
 
