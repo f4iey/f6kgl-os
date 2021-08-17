@@ -2,7 +2,7 @@
 # shellcheck disable=SC2034
 
 iso_name="f6kgl"
-iso_label="f6kgl-v2.3"
+iso_label="f6kgl-v4.0"
 iso_publisher="F6KGL OS <https://f6kgl-f5kff.fr>"
 iso_application="F6KGL OS Live/Rescue CD"
 iso_version="$(date +%Y.%m.%d)"
@@ -21,7 +21,5 @@ file_permissions=(
   ["/usr/local/bin/choose-mirror"]="0:0:755"
   ["/usr/local/bin/Installation_guide"]="0:0:755"
   ["/usr/local/bin/livecd-sound"]="0:0:755"
-  ["/usr/local/bin/f6kgl-before"]="0:0:755"
-  ["/usr/local/bin/f6kgl-final"]="0:0:755"
 
 )
