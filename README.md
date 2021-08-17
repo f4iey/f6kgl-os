@@ -24,6 +24,7 @@ To compile the ISO, make sure `archiso` is already installed on your machine and
 ```sh
 pacman -Sy archiso
 git clone https://gitlab.com/F4IEY/f6kgl-os.git
+cd f6kgl-os/archlive
 ```
 ### Import AUR packages
 
