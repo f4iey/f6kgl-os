@@ -1,6 +1,6 @@
 # f6kgl-os
 
-Yet another live arch linux distro for ham radio purposes... But for x86_64 archs.
+Yet another arch linux distro for ham radio purposes... But for x86_64 archs.
 
 This distro includes the main tools for *digital modes, SDR, hamnet and more!*
 
@@ -60,10 +60,7 @@ Go to your machine boot menu and select the right drive to boot with.
 
 For testing in a virtual machine (VMWare/Virtualbox), create a new VM with at least generic `Linux 5.10` on it and select the ISO as external boot drive.
 
-# French keyboard layout
+# Installing
 
-Pour nos amis francais, si le layout du clavier ne correspond pas taper dans le terminal:
+Now that the installing feature works, you can either open the `Install System` in the launcher or simply type `calamares` in a terminal. You'll maybe need to enter the session password, *which is the same as the default username.* 
 
-```sh
-setxkbmap fr
-```
