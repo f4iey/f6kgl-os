@@ -8,7 +8,7 @@ echo
 echo
 echo
 echo importing AUR packages...
-pkgname=("yay" "grig" "qsstv" "direwolf" "klog" "wsjtx" "ckbcomp" "mkinitcpio-openswap")
+pkgname=("yay" "grig" "qsstv" "direwolf" "klog" "wsjtx" "ckbcomp" "mkinitcpio-openswap" "js8call")
 for t in ${pkgname[@]}; do
     git clone https://aur.archlinux.org/${pkgname[t]}.git
     cd ${pkgname[t]}
