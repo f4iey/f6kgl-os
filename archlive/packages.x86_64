@@ -125,6 +125,7 @@ zsh
 sddm
 zsh-completions
 plasma-meta
+xorg-xrandr
 #kde-applications-meta
 gwenview
 partitionmanager
