@@ -169,6 +169,7 @@ lolcat
 jdk-openjdk
 base-devel
 neofetch
+networkmanager
 python
 gcc
 wget
