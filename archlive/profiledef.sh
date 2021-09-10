@@ -22,6 +22,9 @@ file_permissions=(
   ["/usr/local/bin/Installation_guide"]="0:0:755"
   ["/usr/local/bin/livecd-sound"]="0:0:755"
   ["/etc/pacman.d/mirrorlist"]="0:0:755"
-  ["/etc/skel/Desktop/*.desktop"]="0:0:755"
+  ["/etc/skel/Desktop/gqrx.desktop"]="0:0:755"
+  ["/etc/skel/Desktop/klog.desktop"]="0:0:755"
+  ["/etc/skel/Desktop/qsstv.desktop"]="0:0:755"
+  ["/etc/skel/Desktop/wsjtx.desktop"]="0:0:755"
 
 )
