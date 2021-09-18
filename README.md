@@ -13,6 +13,7 @@ It features the basics amateur radio preconfigured software packages:
 * **direwolf**: For all APRS stuff (client not included, recommend installing `xastir`)
 * **qsstv**: A simple SSTV/DRM image encoder/decoder
 * **wsjtx**: Weak signals HF digital modes
+* **js8call**: Weak Signals chat
 * **klog**: QSO logger
 * **grig**: User friendy GUI to control hamlib compatible rigs
 * **gqrx**: RX ready Plug'n'Play configuration for every SDR dongle (HackRF, RTL, FunCube, limeSDR...)
@@ -55,6 +56,7 @@ You'll need at least **2GB** of storage.
 ### BIOS/UEFI
 
 Go to your machine boot menu and select the right drive to boot with.
+For *UEFI*, make sure *secure boot* is disabled.
 
 ### Virtual Machine
 
