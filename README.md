@@ -18,7 +18,7 @@ It features the basics amateur radio preconfigured software packages:
 * **grig**: User friendy GUI to control hamlib compatible rigs
 * **gqrx**: RX ready Plug'n'Play configuration for every SDR dongle (HackRF, RTL, FunCube, limeSDR...)
 
-You can either [download the ISO](https://perso.esiee.fr/~benkemoj/downloads/f6kgl-2021.08.16-x86_64.iso) or *build it yourself* with the steps below.
+You can either [download the ISO](https://perso.esiee.fr/~benkemoj/downloads/) or *build it yourself* with the steps below.
 ## Prerequisites
 
 To compile the ISO, make sure `archiso` is already installed on your machine and a local repo to import AUR packages.
