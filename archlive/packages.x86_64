@@ -125,6 +125,7 @@ zsh
 sddm
 zsh-completions
 plasma-meta
+f6kgl-wallpapers-git
 xorg-xrandr
 #kde-applications-meta
 gwenview
@@ -148,6 +149,7 @@ limesuite
 multimon-ng
 rtl-sdr
 gnuradio
+qru-git
 
 #jambon AUR
 yay
