@@ -135,7 +135,7 @@ kate
 
 #Config Calamares
 calamares
-#custom-calamares-config
+f6kgl-calamares-config
 grub
 os-prober
 
@@ -153,7 +153,6 @@ gnuradio
 yay
 grig
 qsstv
-direwolf
 klog
 wsjtx
 js8call
