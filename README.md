@@ -26,19 +26,14 @@ To compile the ISO, make sure `archiso` is already installed on your machine and
 pacman -Sy archiso
 git clone https://gitlab.com/F4IEY/f6kgl-os.git
 cd f6kgl-os/archlive
-```
-### Import AUR packages
 
-To import the required packages from the AUR run `./import-aur.sh`.
-**Do not skip this step!** Otherwise the ISO build will fail because of missing packages.
-
-## Compiling the iso
+## Building the iso
 
 Once the repo is cloned and AUR packages are imported, use the following commands and make sure to have the right permissions:
 
 ```sh
 cd f6kgl-os/archlive
-mkarchiso -v -w /path/to/your/working/folder -o /path/to/iso/destination .
+mkarchiso -v -w /path/to/your/working/folder -o /path/to/iso/destination ./
 ```
 
 If something is wrong or broken (e.g you interrupted the process or packages are missing), make sure to clean your working folder before building the ISO again:
@@ -56,6 +51,7 @@ You'll need at least **2GB** of storage.
 ### BIOS/UEFI
 
 Go to your machine boot menu and select the right drive to boot with.
+
 For *UEFI*, make sure *secure boot* is disabled.
 
 ### Virtual Machine
