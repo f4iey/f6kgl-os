@@ -1,4 +1,4 @@
-# f6kgl-os
+# F6KGL O
 
 Yet another arch linux distro for ham radio purposes... But for x86_64 archs.
 
@@ -17,15 +17,16 @@ It features the basics amateur radio preconfigured software packages:
 * **klog**: QSO logger
 * **grig**: User friendy GUI to control hamlib compatible rigs
 * **gqrx**: RX ready Plug'n'Play configuration for every SDR dongle (HackRF, RTL, FunCube, limeSDR...)
+* And [many more!](https://gitlab.com/f4iey/f6kgl-repo)
 
 You can either [download the ISO](https://perso.esiee.fr/~benkemoj/downloads/) or *build it yourself* with the steps below.
 ## Prerequisites
 
-To compile the ISO, make sure `archiso` is already installed on your machine and a local repo to import AUR packages.
+To compile the ISO, make sure `archiso` is already installed on your machine:
 ```sh
 pacman -Sy archiso
 git clone https://gitlab.com/F4IEY/f6kgl-os.git
-cd f6kgl-os/archlive
+```
 
 ## Building the iso
 
