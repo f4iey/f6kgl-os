@@ -1,4 +1,4 @@
-# F6KGL O
+# F6KGL OS
 
 Yet another arch linux distro for ham radio purposes... But for x86_64 archs.
 
