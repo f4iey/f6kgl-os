@@ -5,10 +5,6 @@ Yet another arch linux distro for ham radio purposes... But for x86_64 archs.
 This distro includes the main tools for *digital modes, SDR, hamnet and more!*
 
 <img width="40%" src="https://media.discordapp.net/attachments/729343035032207450/876059569858707486/unknown.png" />
-<img width="40%" src="https://media.discordapp.net/attachments/729343035032207450/876059162331709440/unknown.png">
-
-![f6kgl-bspwm](https://media.discordapp.net/attachments/729343035032207450/889634143388991578/unknown.png?width=594&height=446)
-![f6kgl-mate](https://media.discordapp.net/attachments/719267891694010389/893922865764765807/unknown.png)
 
 It features the basics amateur radio preconfigured software packages:
 
@@ -66,3 +62,9 @@ For testing in a virtual machine (VMWare/Virtualbox), create a new VM with at le
 
 Now that the installing feature works, you can either open the `Install System` in the launcher or simply type `calamares` in a terminal. You'll maybe need to enter the session password, *which is the same as the default username.* 
 
+# Other screenshots
+
+<img width="40%" src="https://media.discordapp.net/attachments/729343035032207450/876059162331709440/unknown.png">
+
+![f6kgl-bspwm](https://media.discordapp.net/attachments/729343035032207450/889634143388991578/unknown.png?width=594&height=446)
+![f6kgl-mate](https://media.discordapp.net/attachments/719267891694010389/893922865764765807/unknown.png)
