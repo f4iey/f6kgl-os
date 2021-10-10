@@ -165,6 +165,7 @@ limesuite
 multimon-ng
 rtl-sdr
 gnuradio
+qru-git
 
 #jambon AUR
 yay
