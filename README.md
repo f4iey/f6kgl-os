@@ -7,6 +7,9 @@ This distro includes the main tools for *digital modes, SDR, hamnet and more!*
 <img width="40%" src="https://media.discordapp.net/attachments/729343035032207450/876059569858707486/unknown.png" />
 <img width="40%" src="https://media.discordapp.net/attachments/729343035032207450/876059162331709440/unknown.png">
 
+![f6kgl-bspwm](https://media.discordapp.net/attachments/729343035032207450/889634143388991578/unknown.png?width=594&height=446)
+![f6kgl-mate](https://media.discordapp.net/attachments/719267891694010389/893922865764765807/unknown.png)
+
 It features the basics amateur radio preconfigured software packages:
 
 * **hamlib**: Basic CLI tools to control your rig
