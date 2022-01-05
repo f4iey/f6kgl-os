@@ -1,13 +1,13 @@
 # remove from airootfs!
 [Trigger]
 Operation = Install
+Operation = Upgrade
 Type = Package
 Target = glibc
 
 [Action]
-Description = Adding PRETTY_NAME to os-release...
+Description = Perparing F6KGL OS...
 When = PostTransaction
 Depends = glibc
-Depends = coreutils
-Depends = sh
-Exec = /bin/sh -c "echo PRETTY_NAME=\"F6KGL OS\" >> /etc/os-release"
+Depends = sed
+Exec = /usr/bin/sed -i "s/PRETTY_NAME=\"Arch Linux\"/PRETTY_NAME=\"F6KGL OS\"/" /etc/os-release
