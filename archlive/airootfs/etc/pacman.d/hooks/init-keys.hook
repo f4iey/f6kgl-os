@@ -1,0 +1,13 @@
+# remove from airootfs!
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Type = Package
+Target = pacman
+
+[Action]
+Description = Initialize archlinux keyring...
+When = PostTransaction
+Depends = pacman
+Depends = gnupg
+Exec = /usr/bin/pacman-key --init && /usr/bin/pacman-key --populate archlinux
