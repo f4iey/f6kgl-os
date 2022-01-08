@@ -1,0 +1,13 @@
+# remove from airootfs!
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Type = Package
+Target = glibc
+
+[Action]
+Description = Perparing F6KGL OS...
+When = PostTransaction
+Depends = glibc
+Depends = sed
+Exec = /usr/bin/sed -i "s/PRETTY_NAME=\"Arch Linux\"/PRETTY_NAME=\"F6KGL OS\"/" /etc/os-release
