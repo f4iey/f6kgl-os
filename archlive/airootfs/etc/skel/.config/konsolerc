@@ -5,32 +5,30 @@ DefaultProfile=
 ShowMenuBarByDefault=false
 
 [MainWindow]
+Height 1600x1200=600
+Height 1920x1080=549
+Height 3840x2160=600
+Height 800x600=300
 RestorePositionForNextInstance=false
+State=AAAA/wAAAAD9AAAAAQAAAAAAAAAAAAAAAPwCAAAAAfsAAAAcAFMAUwBIAE0AYQBuAGEAZwBlAHIARABvAGMAawAAAAAA/////wAAANUBAAADAAACRAAAAOAAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAgAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAAAAAAcAHMAZQBzAHMAaQBvAG4AVABvAG8AbABiAGEAcgEAAADo/////wAAAAAAAAAA
 StatusBar=Disabled
 ToolBarsMovable=Disabled
-
-
-#VM entry
 Virtual-1 Height 800x600=300
 Virtual-1 Width 800x600=580
-Virtual-1 XPosition 800x600=0
-Virtual-1 YPosition 800x600=29
-#Normal screen setup
-#for 4:3
-Height 800x600=300
-Width 800x600=580
-XPosition 800x600=0
-YPosition 800x600=29
-Height 1600x1200=600
+Virtual-1 XPosition 800x600=110
+Virtual-1 YPosition 800x600=128
 Width 1600x1200=580
-XPosition 1600x1200=0
-YPosition 1600x1200=52
-#for 16:9
-Height 1920x1080=549
 Width 1920x1080=960
-XPosition 1920x1080=15
-YPosition 1920x1080=52
-Height 3840x2160=600
 Width 3840x2160=800
+Width 800x600=580
+XPosition 1600x1200=0
+XPosition 1920x1080=15
 XPosition 3840x2160=50
+XPosition 800x600=0
+YPosition 1600x1200=52
+YPosition 1920x1080=52
 YPosition 3840x2160=50
+YPosition 800x600=29
+
+[UiSettings]
+ColorScheme=Default
