@@ -64,7 +64,7 @@ Now that the installing feature works, you can either open the `Install System` 
 
 # Other screenshots
 
-<img width="40%" src="https://media.discordapp.net/attachments/729343035032207450/876059162331709440/unknown.png">
+![f6kgl-kde](https://cdn.discordapp.com/attachments/689008172442058759/933404557252390932/unknown.png)
 
-![f6kgl-bspwm](https://media.discordapp.net/attachments/729343035032207450/889634143388991578/unknown.png?width=594&height=446)
+![f6kgl-bspwm](https://media.discordapp.net/attachments/685121553729323031/928383101724397568/unknown.png?width=1635&height=917)
 ![f6kgl-mate](https://media.discordapp.net/attachments/719267891694010389/893922865764765807/unknown.png)
