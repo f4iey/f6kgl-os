@@ -2,7 +2,7 @@
 # shellcheck disable=SC2034
 
 iso_name="f6kgl"
-iso_label="f6kgl-v4.5"
+iso_label="f6kgl-v4.5.1"
 iso_publisher="F6KGL OS <https://f6kgl-f5kff.fr>"
 iso_application="F6KGL OS Live/Rescue CD"
 iso_version="$(date +%Y.%m.%d)"
