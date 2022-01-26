@@ -141,6 +141,7 @@ grub
 os-prober
 
 #Packages jambons
+gnuradio-companion
 gqrx
 arduino
 hamlib
