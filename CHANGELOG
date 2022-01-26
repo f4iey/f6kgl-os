@@ -3,6 +3,8 @@ f6kgl versions:
 ------------------
 v4.5.1
     - Add fr/us as default keyboard layout
+    - Update WSJT-X
+    - Add GNUradio
 v4.5
     - Enhanced experience for KDE Plasma
     - fix pacman keys
