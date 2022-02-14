@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Name=SDR++
+GenericName=Cross-Platform SDR Software
+Comment=The bloat free SDR Software
+Exec=sdrpp
+Terminal=false
+Icon=/usr/share/sdrpp/icons/sdrpp.png
+Categories=Network;HamRadio;
+Keywords=SDR;Radio;HAM;
+StartupNotify=false

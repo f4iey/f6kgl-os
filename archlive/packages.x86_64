@@ -142,7 +142,6 @@ os-prober
 
 #Packages jambons
 gnuradio-companion
-gqrx
 arduino
 hamlib
 hackrf
@@ -153,8 +152,10 @@ gnuradio
 qru-git
 
 #jambon AUR
-yay
-grig
+flrig
+# hotfix for sdrpp dep problem
+glfw-x11
+sdrpp-git
 qsstv
 klog
 wsjtx
@@ -177,4 +178,4 @@ gcc
 wget
 unzip
 minicom
-
+yay

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=image-png
+Name=kgl.png
+Type=Link
+URL[$e]=file:///usr/share/icons/kgl.png
+X-KDE-LastOpenedWith=org.kde.plasmashell

@@ -158,7 +158,6 @@ os-prober
 
 #Packages jambons
 gnuradio-companion
-gqrx
 arduino
 hamlib
 hackrf
@@ -169,9 +168,8 @@ gnuradio
 qru-git
 
 #jambon AUR
-yay
-grig
 qsstv
+sdrpp-git
 direwolf
 js8call
 klog
@@ -199,9 +197,9 @@ partitionmanager
 pulseaudio
 python
 gcc
-#termite
 wget
 unzip
 minicom
+yay
 zsh-completions
 

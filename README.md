@@ -14,8 +14,8 @@ It features the basics amateur radio preconfigured software packages:
 * **wsjtx**: Weak signals HF digital modes
 * **js8call**: Weak Signals chat
 * **klog**: QSO logger
-* **grig**: User friendy GUI to control hamlib compatible rigs
-* **gqrx**: RX ready Plug'n'Play configuration for every SDR dongle (HackRF, RTL, FunCube, limeSDR...)
+* **flrig**: User friendy GUI to control hamlib compatible rigs
+* **SDR++**: RX ready Plug'n'Play configuration for every SDR dongle (HackRF, RTL, FunCube, limeSDR...)
 * And [many more!](https://gitlab.com/f4iey/f6kgl-repo)
 
 You can either [download the ISO](https://perso.esiee.fr/~benkemoj/downloads/) or *build it yourself* with the steps below.

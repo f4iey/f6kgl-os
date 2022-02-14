@@ -4,9 +4,9 @@ gpg: starting migration from earlier GnuPG versions
 gpg: porting secret keys from '/etc/pacman.d/gnupg/secring.gpg' to gpg-agent
 gpg: migration succeeded
 gpg: Generating pacman keyring master key...
-gpg: key 1A9B069B72176589 marked as ultimately trusted
+gpg: key CAE53112EC5210A8 marked as ultimately trusted
 gpg: directory '/etc/pacman.d/gnupg/openpgp-revocs.d' created
-gpg: revocation certificate stored as '/etc/pacman.d/gnupg/openpgp-revocs.d/B5A884A3652141AC4C54E73F1A9B069B72176589.rev'
+gpg: revocation certificate stored as '/etc/pacman.d/gnupg/openpgp-revocs.d/4A6D01F177B6754E5655C93DCAE53112EC5210A8.rev'
 gpg: Done
 gpg: marginals needed: 3  completes needed: 1  trust model: pgp
 gpg: depth: 0  valid:   1  signed:   0  trust: 0-, 0q, 0n, 0m, 0f, 1u
@@ -18,5 +18,5 @@ gpg: setting ownertrust to 4
 gpg: marginals needed: 3  completes needed: 1  trust model: pgp
 gpg: depth: 0  valid:   1  signed:   5  trust: 0-, 0q, 0n, 0m, 0f, 1u
 gpg: depth: 1  valid:   5  signed:  94  trust: 0-, 0q, 0n, 5m, 0f, 0u
-gpg: depth: 2  valid:  85  signed:  34  trust: 85-, 0q, 0n, 0m, 0f, 0u
+gpg: depth: 2  valid:  87  signed:  33  trust: 87-, 0q, 0n, 0m, 0f, 0u
 gpg: next trustdb check due at 2022-05-06
