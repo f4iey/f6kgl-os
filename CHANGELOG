@@ -6,6 +6,7 @@ v4.6.1
     - Remove mandatory strong password
     - bug fix with KDE dolphin after install
     - Enhanced experience for hamlib apps
+    - replace bash with zsh as default user shell once installed
 v4.6
     - Set SDR++ as the main SDR software
     - replace grig with flrig (hamlib deprecated)
