@@ -2,12 +2,15 @@ f6kgl versions:
 
 ------------------
 
+v4.6.1
+    - Remove mandatory strong password
+    - bug fix with KDE dolphin after install
+    - Enhanced experience for hamlib apps
 v4.6
     - Set SDR++ as the main SDR software
     - replace grig with flrig (hamlib deprecated)
     - improve calamares installer
     - add latest plasma desktop version (5.24)
-
 v4.5.1
     - Add fr/us as default keyboard layout
     - Update WSJT-X
