@@ -160,7 +160,7 @@ os-prober
 gnuradio-companion
 gnuradio-osmosdr
 arduino
-hamlib
+hamlib-git
 hackrf
 limesuite
 multimon-ng
@@ -171,7 +171,6 @@ qru-git
 #jambon AUR
 qsstv
 sdrpp-git
-direwolf
 js8call
 klog
 wsjtx

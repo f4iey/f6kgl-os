@@ -138,7 +138,7 @@ gnuradio-companion
 gnuradio-osmosdr
 gqrx
 arduino
-hamlib
+hamlib-git
 hackrf
 limesuite
 multimon-ng
@@ -150,7 +150,6 @@ qru-git
 yay
 grig
 qsstv
-direwolf
 klog
 wsjtx
 js8call
