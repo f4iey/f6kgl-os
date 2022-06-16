@@ -158,6 +158,7 @@ os-prober
 
 #Packages jambons
 gnuradio-companion
+gnuradio-osmosdr
 arduino
 hamlib
 hackrf
