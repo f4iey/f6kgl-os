@@ -160,7 +160,7 @@ os-prober
 gnuradio-companion
 gnuradio-osmosdr
 arduino
-hamlib-git
+hamlib
 hackrf
 limesuite
 multimon-ng

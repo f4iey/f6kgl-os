@@ -141,10 +141,10 @@ grub
 os-prober
 
 #Packages jambons
+hamlib
 gnuradio-companion
 gnuradio-osmosdr
 arduino
-hamlib-git
 hackrf
 limesuite
 multimon-ng

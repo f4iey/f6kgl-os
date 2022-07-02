@@ -2,6 +2,12 @@ f6kgl versions:
 
 ------------------
 
+v4.7
+    - update hamlib
+    - update calamares
+    - fix HamRadio pixmap
+    - Clean Plasma default workspace
+    - add latest plasma version (5.25)
 v4.6.1
     - Remove mandatory strong password
     - bug fix with KDE dolphin after install

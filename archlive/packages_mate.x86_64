@@ -138,7 +138,7 @@ gnuradio-companion
 gnuradio-osmosdr
 gqrx
 arduino
-hamlib-git
+hamlib
 hackrf
 limesuite
 multimon-ng
