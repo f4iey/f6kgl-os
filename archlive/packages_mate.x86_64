@@ -124,12 +124,14 @@ zsh
 #Desktop configuration
 sddm
 xorg
+xdg-user-dirs
 mate
 mate-extra
+f6kgl-wallpapers-git
 
 #Config Calamares
 calamares
-#custom-calamares-config
+f6kgl-calamares-config
 grub
 os-prober
 
