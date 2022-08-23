@@ -144,6 +144,9 @@ os-prober
 hamlib
 gnuradio-companion
 gnuradio-osmosdr
+soapyplutosdr
+soapyairspy
+airspy
 arduino
 hackrf
 limesuite
@@ -153,6 +156,7 @@ gnuradio
 qru-git
 
 #jambon AUR
+airspyhf-git
 flrig
 # hotfix for sdrpp dep problem
 glfw-x11

@@ -159,6 +159,9 @@ os-prober
 #Packages jambons
 gnuradio-companion
 gnuradio-osmosdr
+soapyplutosdr
+soapyairspy
+airspy
 arduino
 hamlib
 hackrf
@@ -169,7 +172,9 @@ gnuradio
 qru-git
 
 #jambon AUR
+airspyhf-git
 qsstv
+glfw-x11
 sdrpp-git
 js8call
 klog
