@@ -1,0 +1,13 @@
+# remove from airootfs!
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Type = Package
+Target = pacman
+
+[Action]
+Description = Adding F6KGL repo
+When = PostTransaction
+Depends = pacman
+Depends = glibc
+Exec = /usr/bin/echo -e "\n[f6kgl-repo]\nSigLevel = Optional TrustAll\nServer = https://gitlab.com/f4iey/\$repo/-/raw/main/\$arch\n" >> /etc/pacman.conf
