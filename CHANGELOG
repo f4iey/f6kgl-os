@@ -2,6 +2,10 @@ f6kgl versions:
 
 ------------------
 
+v4.8
+    - update wsjtx
+    - remove qru scripts (use pacman as package manager)
+    - remove other unused packages
 v4.7
     - update hamlib
     - update calamares
