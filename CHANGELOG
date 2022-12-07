@@ -2,6 +2,11 @@ f6kgl versions:
 
 ------------------
 
+v5
+    - update wsjtx
+    - update archiso configuration
+    - update bootloader
+
 v4.8
     - update wsjtx
     - remove qru scripts (use pacman as package manager)
