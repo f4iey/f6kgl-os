@@ -3,6 +3,8 @@ f6kgl versions:
 ------------------
 v5.1
     - update KDE Plasma
+    - remove js8call as default
+    - update calamares
     - update sdrpp
 v5
     - update wsjtx
