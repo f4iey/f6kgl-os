@@ -1,6 +1,6 @@
 # F6KGL OS
 
-Yet another arch linux distro for ham radio purposes... But for x86_64 archs.
+Yet another arch linux distro for ham radio purposes... But for **x86_64** archs.
 
 This distro includes the main tools for *digital modes, SDR, hamnet and more!*
 
@@ -68,3 +68,31 @@ Now that the installing feature works, you can either open the `Install System` 
 
 ![f6kgl-bspwm](https://media.discordapp.net/attachments/685121553729323031/928383101724397568/unknown.png?width=1635&height=917)
 
+# FAQ
+
+## Will it run on my low-spec machine / raspberry devices?
+Again, This Linux distro is meant to run on **64bits** (x86_64) machines **NOT** built for ARM-based machines nor 32bits architectures.
+
+*Similar amateur radio distro projects are working on raspberry devices, such as [hamPi](https://github.com/dslotter/HamPi)*
+
+## How old my machine can be to run this properly?
+This OS is permanently tested and daily driven on a Thinkpad x220, which is a **10 year-old** laptop.
+
+Here are some well-running configuration examples, storage info does not apply in *live mode*:
+|Configuration|Storage (GB)|Memory (GB)|Reference processor|
+|:-----------:|-----------:|----------:|------------------:|
+|Minimal      |           8|          8|   2.4GHz dual core|
+|Recommended  |         256|         16|   3.2GHz dual core|
+|Optimal      |         512|         32|   4.2GHz hex  core|
+
+## Is there an AUR helper built-in?
+Yes. `yay` is usable out of the box.
+
+## Is there \<insert ham radio program name> built in?
+If this particular piece of software is not built, you may check the f6kgl-repo. In case it is not present, first have a look into the AUR. If you still cannot find it, please ask or push it to the AUR.
+
+## Oh no! My machine is taking too long to install and the lockscreen popped-up! What's the live user password?
+Again, the password is `liveuser`.
+
+## Which distro F6KGL OS is based on?
+It is based on *Arch Linux*, the most popular rolling release distro.
